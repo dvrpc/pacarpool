@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+header{
+    background: #2e3092;
+    border-bottom: 1px solid white;
+    padding: 2% 0;
+    display: flex;
+    box-shadow: 0 -3px 10px 10px rgba(0,0,0,0.4);
+}
+#banner{
+    width: 100%;
+    height: 250px;
+}
+/* section{
+    display: flex;
+} */
+#share-a-ride-access{
+    background: #0060a8;
+    padding: 2% 0;
+}
+#share-a-ride-info{
+    background: #0670b2;
+    padding: 2% 0;
+}
+#commuter-services{
+    color: #353795;
+    padding: 2% 0;
+}
+footer{
+    background: #636363;
+    padding: 4% 0;
+    color: #f7f7f7;
+}
