@@ -27,6 +27,16 @@ header{
     color: #353795;
     padding: 2% 0;
 }
+#commuter-services-philly{
+    display: flex;
+    align-items: center;
+}
+#commuter-services-philly-figure{
+    flex-direction: column;
+}
+figcaption{
+    color: #8a8989;
+}
 footer{
     background: #636363;
     padding: 4% 0;
