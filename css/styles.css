@@ -1,12 +1,41 @@
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-size: 14px;
 }
 header{
     background: #2e3092;
     border-bottom: 1px solid white;
-    padding: 2% 0;
-    display: flex;
+    padding: 1% 0;
     box-shadow: 0 -3px 10px 10px rgba(0,0,0,0.4);
+}
+h1{
+    color: #f7f7f7;
+    font-size: 1.3rem;
+}
+h2{
+    font-size: 1.1rem;
+}
+ul{
+    padding: 0 1rem;
+}
+.vr{
+    display: block;
+    border: 0.1rem solid #f7f7f7;
+    margin: 0 3%;
+}
+#header-wrapper{
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+}
+#header-text-url{
+    letter-spacing: 2px;
+}
+#header-text-small{
+    font-size: 0.8rem;
 }
 #banner{
     width: 100%;
@@ -15,27 +44,60 @@ header{
 /* section{
     display: flex;
 } */
-#share-a-ride-access{
+#share-a-ride{
+    color: #f7f7f7;
     background: #0060a8;
+}
+#share-a-ride-access{
     padding: 2% 0;
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+}
+#share-a-ride-link{
+    color: #f8d904;
+    font-size: 1.5rem;
+}
+#share-a-ride-link a{
+    font-weight: 800;
 }
 #share-a-ride-info{
     background: #0670b2;
     padding: 2% 0;
 }
+#share-a-ride-info-wrapper{
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#share-a-ride-for-employers{
+    width: 60%;
+}
 #commuter-services{
     color: #353795;
     padding: 2% 0;
+    width: 65%;
+    margin: 0 auto;
 }
-#commuter-services-philly{
+.commuter-services-wrapper{
+    padding: 4% 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.commuter-services-wrapper h2{
+    width: 250px;
+}
+.commuter-services-wrapper:not(:last-child) {
+    border-bottom: 1px solid #353795;
 }
 #commuter-services-philly-figure{
     flex-direction: column;
 }
 figcaption{
     color: #8a8989;
+    text-align: center;
 }
 footer{
     background: #636363;
