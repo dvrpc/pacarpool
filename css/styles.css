@@ -111,7 +111,7 @@ ul{
     border-radius: 3px;
 }
 #sar-for-employers{
-    width: 75%;
+    width: 60%;
 }
 #commuter-services{
     color: #353795;
@@ -157,6 +157,11 @@ footer{
 }
 #footer-logo-wrapper{
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    border-right: 2px solid #f7f7f7;
+    padding-right: 15px;
 }
 #footer-text-wrapper{
     width: 60%;
