@@ -214,3 +214,108 @@ footer{
 .footer-social-link:not(:last-child){
     border-right: 1px solid #f7f7f7;
 }
+
+
+/* Media Queries */
+@media all and (max-width: 900px) {
+    body{
+        font-size: 12px;
+        line-height: 1.1rem;
+        overflow-x: hidden;
+    }
+    #header-wrapper{
+        width: auto;
+        padding: 5px;
+    }
+    #header-wrapper img{
+        width: 120px;
+        height: 25px;
+        align-self: center;
+    }
+    #header-text-url{
+        letter-spacing: 3px;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    #header-text-small{
+        font-size: 0.65rem;
+        font-weight: 500;
+    }
+    #banner, #banner img{
+        height: 205px;
+    }
+
+
+    /* Share-a-Ride */
+    #sar-access, #sar-info{
+        padding: 5% 0;
+    }
+    #sar-access{
+        width: 95%;
+        flex-direction: column;
+    }
+    #sar-link{
+        font-size: 1rem;
+        margin: 5% 0;
+    }
+    #sar-logo-figure{
+        width: 70%;
+    }
+    #sar-vr{
+        margin-bottom: 5%;
+    }
+    #sar-info-btn{
+        width: 70%;
+        padding: 5px 10px;
+    }
+    #sar-info-wrapper{
+        width: 95%;
+    }
+    .sar-content{
+        min-height: 325px;
+    }
+    #sar-for-commuters{
+        width: 50%;
+    }
+
+
+    /* Commuter Services */
+    #commuter-services{
+        width: 95%;
+    }
+    .commuter-services-wrapper{
+        padding: 5% 0;
+        flex-direction: column;
+    }
+    .commuter-services-wrapper h2{
+        width: 100%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    .commuter-services-wrapper h2 br{
+        display:  none;
+    }
+    .commuter-services-figure{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .commuter-services-figure img{
+        margin: 0 auto;
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+    .commuter-services-p{
+        font-size: 0.8rem;
+        width: 50%;
+        margin-bottom: 3%;
+    }
+    .commuter-services-formatter{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #mini-jawn{
+        width: 80%;
+    }
+}
