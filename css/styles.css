@@ -263,7 +263,7 @@ footer{
         font-weight: 500;
     }
     #banner, #banner img{
-        height: 205px;
+        height: 150px;
     }
 
 
@@ -275,12 +275,15 @@ footer{
         width: 95%;
         flex-direction: column;
     }
+    #sar-tagline{
+        font-size: inherit;
+    }
     #sar-link{
         font-size: 1rem;
         margin: 5% 0;
     }
     #sar-logo-figure{
-        width: 70%;
+        width: 60%;
     }
     #sar-vr{
         margin-bottom: 5%;
@@ -298,6 +301,10 @@ footer{
     #sar-for-commuters{
         width: 50%;
     }
+    #sar-bottom-mobile-exception{
+        position: initial;
+        margin-top: 10px;
+    }
 
 
     /* Commuter Services */
@@ -305,10 +312,11 @@ footer{
         width: 95%;
     }
     .commuter-services-wrapper{
-        padding: 5% 0;
+        padding: 11% 0;
         flex-direction: column;
     }
     .commuter-services-wrapper h2{
+        font-size: 1.05rem;
         width: 100%;
         margin-bottom: 5%;
         text-align: center;
@@ -335,7 +343,28 @@ footer{
         width: 100%;
         flex-wrap: wrap;
     }
-    #mini-jawn{
+    #mini-jawn, #commuter-info-pa{
+        width: 90%;
+    }
+
+
+    /* Footer */
+    footer{
+        display: inherit;
+    }
+    #footer-logo-wrapper, #footer-text-wrapper, #footer-contact-wrapper {
+        margin-top: 10%;
+    }
+    #footer-logo-wrapper{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
         width: 80%;
+    }
+    #program-of{
+        margin-bottom: 0;
+    }
+    #footer-contact-wrapper h3 {
+        text-align: left;
     }
 }

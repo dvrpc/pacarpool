@@ -66,7 +66,7 @@
                             <li>Your employees will get to work on time more often, and take fewer sick days (really!)</li>
                             <li>You show your employees, and the community, you are environmentally friendly</li>
                         </ul>
-                        <p class="sar-bottom">If you would like assistance with implementing commute alternatives for your work site, contact the <a href="">Transportation Management Association (TMA) </a> for your region.</p> 
+                        <p id="sar-bottom-mobile-exception" class="sar-bottom">If you would like assistance with implementing commute alternatives for your work site, contact the <a href="">Transportation Management Association (TMA) </a> for your region.</p> 
                     </div>
                 </div>
             </aside>
@@ -78,7 +78,7 @@
                     Services in Greater<br />
                     Philadelphia
                 </h2>
-                <div id="commuter-services-philly" class="commuter-services-formatter">
+                <div class="commuter-services-formatter">
                     <figure class="commuter-services-figure">
                         <img src="./img/map-logo.png" alt=" Mobility Alternatives Program (MAP) logo" />
                         <figcaption>
@@ -109,12 +109,12 @@
                     </figure>
                 </div>
             </div>
-            <div id="commuter-info-pa" class="commuter-services-wrapper">
+            <div class="commuter-services-wrapper">
                 <h2>
                     Commuter Information<br />
                     Across Pennsylvania
                 </h2>
-                <div class="commuter-services-formatter">
+                <div id="commuter-info-pa" class="commuter-services-formatter">
                     <p class="commuter-services-p">
                         Greater Pittsburgh Area<br />
                         <a href="">Commuteinfo.org</a>
@@ -160,7 +160,7 @@
     <footer>
         <div id="footer-logo-wrapper">
             <span id="program-of"><em>A program of</em></span>
-            <img src="./img/footer/footer-logo.png" alt="DVRPC logo" />
+            <img id="footer-logo" src="./img/footer/footer-logo.png" alt="DVRPC logo" />
         </div>
         <span class="vr"></span>
         <address id="footer-text-wrapper">
@@ -198,5 +198,12 @@
             </div>
         </div>
     </footer>
+    <script>
+        var width = window.outerWidth
+        if(width <= 900) {
+            var img = document.querySelector('#banner img')
+            img.src = "./img/banner-mobile.png"
+        }
+    </script>
 </body>
 </html>
